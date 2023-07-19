@@ -4,8 +4,8 @@ from cvzone.FaceDetectionModule import FaceDetector
 
 # define a video capture object
 vid = cv2.VideoCapture(0)
-vid.set(3,640)
-vid.set(3,480)
+# vid.set(3,640)
+# vid.set(3,480)
 detector =FaceDetector(minDetectionCon=0.75)
 
 while(True):
@@ -25,7 +25,7 @@ while(True):
 			# Using cv2.blur() method 
 			imgCrop= cv2.blur(imgCrop, ksize, cv2.BORDER_DEFAULT) 
 			frame[y:y+h,x:x+w] = imgCrop
-			cv2.imshow(f'Img cropped{i}',imgCrop)
+			# cv2.imshow(f'Img cropped{i}',imgCrop)
 
 	# Display the resulting frame
 	cv2.imshow('frame', frame)

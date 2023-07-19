@@ -1,4 +1,5 @@
 **Blurring the face with OpenCV**
+![GIF](./_resources/working.gif)
 
 ![69a86f4e63c9099741a77227f8146ab9.png](./_resources/69a86f4e63c9099741a77227f8146ab9.png)
 > Opencv
